@@ -44,6 +44,7 @@ export const experiencesData = [
       "I graduated from BGC Trust University Bangladesh, Bachelor in Computer science and engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2024",
+    stacks:[]
   },
 
   {
