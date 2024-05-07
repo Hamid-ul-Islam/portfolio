@@ -23,7 +23,7 @@ export const metadata = {
   description:
     "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
   keywords:
-    "Hamid, portfolio, Software developer, web developer, JavaScript, React, Nextjs, GraphQL, ExpressJs, Node.js, MongoDB, SQL, HTML, CSS, projects, experience",
+    "Hamid, Hamidul Islam, Hamidul-Islam, md Hamid, hamid vercel, hamid-vercel, portfolio, Software developer, web developer, JavaScript, React, Nextjs, GraphQL, ExpressJs, Node.js, MongoDB, SQL, HTML, CSS, projects, experience",
   author: "Hamid",
   robots: "index, follow",
   og: {
