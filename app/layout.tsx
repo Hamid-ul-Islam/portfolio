@@ -3,16 +3,37 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
-import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Hamid | Full-Stack Developer Portfolio",
+  description:
+    "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
+  keywords:
+    "Hamid, portfolio, full-stack developer, web developer, JavaScript, React, Node.js, MongoDB, SQL, HTML, CSS, projects, experience",
+  author: "Hamid",
+  robots: "index, follow",
+  og: {
+    title: "Hamid | Full-Stack Developer Portfolio",
+    type: "website",
+    url: "https://hamid-ul-islam.vercel.app",
+    image: "/public/hamid-square.jpg",
+    description:
+      "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@hamid-ul-islam",
+    title: "Hamid | Full-Stack Developer Portfolio",
+    description:
+      "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
+    image: "/public/hamid-square.jpg",
+  },
 };
+
 
 export default function RootLayout({
   children,
@@ -32,9 +53,7 @@ export default function RootLayout({
             <Header />
             {children}
             <Footer />
-
-            <Toaster position="top-right" />
-            <ThemeSwitch />
+            <Toaster position="bottom-right" />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
