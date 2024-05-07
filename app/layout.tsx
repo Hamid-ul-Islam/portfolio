@@ -19,27 +19,27 @@ export const metadata = {
   openGraph: {
     images: "/hamid-square.jpg",
   },
-  title: "Hamid | Full-Stack Developer Portfolio",
+  title: "Hamid | Software Developer Portfolio",
   description:
-    "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
+    "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
   keywords:
-    "Hamid, portfolio, full-stack developer, web developer, JavaScript, React, Node.js, MongoDB, SQL, HTML, CSS, projects, experience",
+    "Hamid, portfolio, Software developer, web developer, JavaScript, React, Nextjs, GraphQL, ExpressJs, Node.js, MongoDB, SQL, HTML, CSS, projects, experience",
   author: "Hamid",
   robots: "index, follow",
   og: {
-    title: "Hamid | Full-Stack Developer Portfolio",
+    title: "Hamid | Software Developer Portfolio",
     type: "website",
     url: "https://hamidul-islam.vercel.app",
     image: "/hamid-square.jpg",
     description:
-      "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
+      "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
   },
   twitter: {
     card: "summary_large_image",
     site: "@hamid-ul-islam",
-    title: "Hamid | Full-Stack Developer Portfolio",
+    title: "Hamid | Software Developer Portfolio",
     description:
-      "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
+      "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
     image: "/hamid-square.jpg",
   },
 };
