@@ -9,6 +9,16 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://hamidul-islam.vercel.app"),
+  alternates: {
+    canonical: "https://hamidul-islam.vercel.app",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
+  openGraph: {
+    images: "/hamid-square.jpg",
+  },
   title: "Hamid | Full-Stack Developer Portfolio",
   description:
     "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
@@ -19,8 +29,8 @@ export const metadata = {
   og: {
     title: "Hamid | Full-Stack Developer Portfolio",
     type: "website",
-    url: "https://hamid-ul-islam.vercel.app",
-    image: "/public/hamid-square.jpg",
+    url: "https://hamidul-islam.vercel.app",
+    image: "/hamid-square.jpg",
     description:
       "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
   },
@@ -30,10 +40,9 @@ export const metadata = {
     title: "Hamid | Full-Stack Developer Portfolio",
     description:
       "Explore Hamid's professional journey as a skilled full-stack developer with 5 years of experience. Discover projects, skills, and expertise.",
-    image: "/public/hamid-square.jpg",
+    image: "/hamid-square.jpg",
   },
 };
-
 
 export default function RootLayout({
   children,
