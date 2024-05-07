@@ -17,7 +17,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    images: "/hamid-square.jpg",
+    images: "/Hamidul-Islam.png",
   },
   title: "Hamid | Software Developer Portfolio",
   description:
@@ -30,7 +30,7 @@ export const metadata = {
     title: "Hamid | Software Developer Portfolio",
     type: "website",
     url: "https://hamidul-islam.vercel.app",
-    image: "/hamid-square.jpg",
+    image: "/Hamidul-Islam.png",
     description:
       "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
   },
@@ -40,7 +40,7 @@ export const metadata = {
     title: "Hamid | Software Developer Portfolio",
     description:
       "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
-    image: "/hamid-square.jpg",
+    image: "/Hamidul-Islam.png",
   },
 };
 
