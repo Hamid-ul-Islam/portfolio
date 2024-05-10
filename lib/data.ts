@@ -44,7 +44,16 @@ export const experiencesData = [
       "I graduated from BGC Trust University Bangladesh, Bachelor in Computer science and engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2024",
-    stacks:[]
+    stacks: [
+      "OOP",
+      "Databases",
+      "DSA",
+      "OS",
+      "Computer Networks",
+      "Machine Learning",
+      "Data Mining",
+      "Image Processing",
+    ],
   },
 
   {
@@ -87,7 +96,7 @@ export const experiencesData = [
   },
   {
     title: "Full Stack Web Developer Trainer",
-    location: "Deal.AI",
+    location: "BeaconIT",
     description:
       "Empowered aspiring developers as a Full Stack Web Developer Trainer at BeaconIT.Designed and delivered comprehensive training modules on full stack web development, equipping students with hands-on experience in creating interactive and responsive web applications",
     icon: React.createElement(LiaChalkboardTeacherSolid),
