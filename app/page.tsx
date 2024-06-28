@@ -5,6 +5,8 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import { AnimatedPinDemo } from "@/components/testimonials";
+import Testimonials from "@/components/testimonials-section";
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
+      <Testimonials/>
       <Contact />
     </main>
   );

@@ -8,6 +8,10 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import riftRally from "@/public/Hot-Wheels-Rift-Rally.png";
 import socialIndex from "@/public/Social-Index-site_signup.jpg";
 import dealAi from "@/public/deal-ai.png";
+import testimonialMichael from "@/public/testimonial-michael.png";
+import testimonialMariglen from "@/public/testimonial-mariglen.png";
+import testimonialMohammad from "@/public/testimonial-mohammad.jpg";
+import testimonialJimmy from "@/public/testimonial-jimmy.png";
 
 export const links = [
   {
@@ -175,3 +179,38 @@ export const skillsData = [
   "Django",
   "Framer Motion",
 ] as const;
+
+export const testimonialsData = [
+  {
+    title: "Michael Marina",
+    description:
+      "Hamid is a great developer and our team thoroughly enjoyed working with him. He is diligent, dependable, and a good communicator.",
+    link: "https://www.upwork.com/freelancers/~01a26ffca66acc6668",
+    image: testimonialMichael,
+    company:"Ayzenberg Group"
+  },
+  {
+    title: "Mariglen Myzyri",
+    description:
+      "Hamidul is very friendly, co-operative and skilled. Honestly, it was smooth and convenient to work with him. He helped us in creating very good solutions that have solve diffrent problems to our company. Thank you Hamidul and we are sure that anyone who engages him will benefit from his skill, friendliness and creativity.",
+    link: "https://www.upwork.com/freelancers/~01a26ffca66acc6668",
+    image: testimonialMariglen,
+    company:"Safary Tech"
+  },
+  {
+    title: "Mohammad",
+    description:
+      "I had the pleasure of working with Hamidul Islam on a project recently and I couldn't be more impressed with his problem-solving abilities and development skills. From the start, he demonstrated a deep understanding of the project requirements and was able to quickly come up with creative solutions to some of our most challenging problems.Overall, I would highly recommend Hamidul Islam to anyone looking for a talented and reliable developer. He was an absolute pleasure to work with and I look forward to collaborating with him again in the future.",
+    link: "https://www.upwork.com/freelancers/~01a26ffca66acc6668",
+    image: testimonialMohammad,
+    company:"Hire Up"
+  },
+  {
+    title: "Jimmy Hopkins",
+    description:
+      "This freelancer was great to work with. I more than recommend their services. He was so professional and extremely skilled.",
+    link: "https://www.upwork.com/freelancers/~01a26ffca66acc6668",
+    image: testimonialJimmy,
+    company:"JimmyHop"
+  },
+];
