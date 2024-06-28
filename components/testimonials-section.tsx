@@ -28,10 +28,10 @@ export default function Testimonials() {
     <section
       id="testimonial"
       ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 sm:mb-40"
+      className="mb-28 max-w-[53rem] scroll-mt-28 sm:mb-40 "
     >
       <SectionHeading>Top Testimonials</SectionHeading>
-      <ul className="grid md:grid-cols-2 gap-6">
+      <ul className="grid md:grid-cols- gap-6">
         {testimonialsData.map((testimonial, index) => (
           <motion.li
             className="w-full "
