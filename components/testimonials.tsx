@@ -22,8 +22,8 @@ export function AnimatedPinDemo({
   company: string;
 }) {
   return (
-    <div className="w-full flex items-center justify-center dark:text-white sm:px-0 px-20">
-      <PinContainer title="Link to profile" href={link} className="">
+    <div className="!w-full flex items-center justify-center dark:text-white sm:px-0 px-20">
+      <PinContainer title="Link to profile" href={link} className="!w-full !h-full">
         <div className="flex basis-full flex-col  tracking-tight text-slate-100/50 sm:basis-1/2 w-full h-full ">
           <div className="flex gap-2 items-center">
             <FaUserCircle

@@ -22,11 +22,11 @@ const fadeInAnimationVariants = {
 };
 
 export default function Testimonials() {
-  const { ref } = useSectionInView("Skills");
+  const { ref } = useSectionInView("Testimonial");
 
   return (
     <section
-      id="skills"
+      id="testimonial"
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 sm:mb-40"
     >
@@ -34,7 +34,7 @@ export default function Testimonials() {
       <ul className="grid md:grid-cols-2 gap-6">
         {testimonialsData.map((testimonial, index) => (
           <motion.li
-            className=""
+            className="w-full "
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -50,7 +50,7 @@ export default function Testimonials() {
               description={testimonial.description}
               image={testimonial.image}
               index={index + 1}
-              company={ testimonial.company}
+              company={testimonial.company}
             />
           </motion.li>
         ))}
