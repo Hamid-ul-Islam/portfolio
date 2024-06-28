@@ -31,10 +31,10 @@ export default function Testimonials() {
       className="mb-28 max-w-[53rem] scroll-mt-28 sm:mb-40 "
     >
       <SectionHeading>Top Testimonials</SectionHeading>
-      <ul className="grid md:grid-cols- gap-6">
+      <ul className="grid md:grid-cols- gap-6 relative">
         {testimonialsData.map((testimonial, index) => (
           <motion.li
-            className="w-full "
+            className="w-full sticky top-24"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
