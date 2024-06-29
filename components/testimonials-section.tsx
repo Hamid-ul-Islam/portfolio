@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 import { testimonialsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
-import { AnimatedPinDemo } from "./testimonials";
+import { AnimatedPinCard } from "./testimonials";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -44,7 +44,7 @@ export default function Testimonials() {
             }}
             custom={index}
           >
-            <AnimatedPinDemo
+            <AnimatedPinCard
               title={testimonial.title}
               link={testimonial.link}
               description={testimonial.description}

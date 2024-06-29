@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
 import { MdCorporateFare } from "react-icons/md";
 
-export function AnimatedPinDemo({
+export function AnimatedPinCard({
   title,
   link,
   description,
@@ -22,7 +22,7 @@ export function AnimatedPinDemo({
   company: string;
 }) {
   return (
-    <div className="!w-full flex items-center justify-center dark:text-white text-gray-700">
+    <div className={`!w-full flex items-center justify-center dark:text-white text-gray-700 ${index===1?"pt-5":index===2?"pt-10":index===3?"pt-16":"pt-20"}`}>
       <PinContainer title="Link to testimonial" href={link} className="!w-full !h-full">
         <div className="flex basis-full flex-col  tracking-tight text-slate-100/50 sm:basis-1/2 w-full h-full ">
           <div className="flex gap-2 items-center">
