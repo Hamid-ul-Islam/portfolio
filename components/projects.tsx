@@ -2,9 +2,10 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { projectsData } from "@/lib/data";
+import { products, projectsData } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
+import { ProjectParallax } from "./ui/project-parallax";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
@@ -18,6 +19,7 @@ export default function Projects() {
             <Project {...project} />
           </React.Fragment>
         ))}
+        {/* <ProjectParallax products={products} /> */}
       </div>
     </section>
   );
