@@ -30,5 +30,5 @@ jobs:
           server: ftp.upworkbd.com
           username: upworkbd.com
           password: F@|>g#)<}R:8
-          local-dir: .next  # Adjust this if your build output directory is different
+          local-dir: build/  # Adjust this if your build output directory is different
           server-dir: /home/sites/38b/f/fbc64409f7/  # Replace with your remote directory
