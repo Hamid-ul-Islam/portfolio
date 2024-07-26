@@ -1,46 +1,47 @@
-import Header from "@/components/header";
-import "./globals.css";
-import { Inter } from "next/font/google";
-import ActiveSectionContextProvider from "@/context/active-section-context";
-import Footer from "@/components/footer";
-import ThemeContextProvider from "@/context/theme-context";
-import { Toaster } from "react-hot-toast";
+import Footer from '@/components/footer';
+import Header from '@/components/header';
+import ActiveSectionContextProvider from '@/context/active-section-context';
+import ThemeContextProvider from '@/context/theme-context';
+import { Inter } from 'next/font/google';
+import Script from 'next/script';
+import { Toaster } from 'react-hot-toast';
+import './globals.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  metadataBase: new URL("https://hamidul-islam.vercel.app"),
+  metadataBase: new URL('https://hamidul-islam.vercel.app'),
   alternates: {
-    canonical: "https://hamidul-islam.vercel.app",
+    canonical: 'https://hamidul-islam.vercel.app',
     languages: {
-      "en-US": "/en-US",
+      'en-US': '/en-US',
     },
   },
   openGraph: {
-    images: "/Hamidul-Islam.jpg",
+    images: '/Hamidul-Islam.jpg',
   },
-  title: "Hamid | Software Developer Portfolio",
+  title: 'Hamid | Software Developer Portfolio',
   description:
     "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
   keywords:
-    "Hamid, Hamidul Islam, Hamidul-Islam, md Hamid, hamid vercel, hamid-vercel, portfolio, Software developer, web developer, JavaScript, React, Nextjs, GraphQL, ExpressJs, Node.js, MongoDB, SQL, HTML, CSS, projects, experience",
-  author: "Hamid",
-  robots: "index, follow",
+    'Hamid, Hamidul Islam, Hamidul-Islam, md Hamid, hamid vercel, hamid-vercel, portfolio, Software developer, web developer, JavaScript, React, Nextjs, GraphQL, ExpressJs, Node.js, MongoDB, SQL, HTML, CSS, projects, experience',
+  author: 'Hamid',
+  robots: 'index, follow',
   og: {
-    title: "Hamid | Software Developer Portfolio",
-    type: "website",
-    url: "https://hamidul-islam.vercel.app",
-    image: "/Hamidul-Islam.jpg",
+    title: 'Hamid | Software Developer Portfolio',
+    type: 'website',
+    url: 'https://hamidul-islam.vercel.app',
+    image: '/Hamidul-Islam.jpg',
     description:
       "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
   },
   twitter: {
-    card: "summary_large_image",
-    site: "@hamid-ul-islam",
-    title: "Hamid | Software Developer Portfolio",
+    card: 'summary_large_image',
+    site: '@hamid-ul-islam',
+    title: 'Hamid | Software Developer Portfolio',
     description:
       "Explore Hamid's professional journey as a skilled Software developer with 5 years of experience. Discover projects, skills, and expertise.",
-    image: "/Hamidul-Islam.jpg",
+    image: '/Hamidul-Islam.jpg',
   },
 };
 
@@ -51,6 +52,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-1PKNR02QVE"
+        ></Script>
+        <Script id="google-analytics">
+          {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1PKNR02QVE')`}
+        </Script>
+      </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
